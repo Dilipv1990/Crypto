@@ -1,0 +1,4 @@
+import into db:
+
+mongoimport --host=192.168.99.100 -d "cryptodb" -c "currencies" --type csv --file "C:\projects\Tower Research\Crypto-app\CurrencyDumps\btc.csv" --headerline
+
